@@ -1,5 +1,6 @@
 name = "StrongMotionFiles"
-authors = ["Michael Tahedl"]
+uuid = "59272c94-9b39-11ed-2290-fd786acdb13d"
+authors = ["Michael Tahedl <michael.ta@icloud.com>"]
 version = "0.0.1"
 
 [deps]
