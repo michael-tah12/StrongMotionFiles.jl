@@ -28,7 +28,7 @@ function readrs(file, start=39)
     return df
 end
 
-function read(file, start=36)
+function readts(file, start=36)
     data = []
     open(file, "r") do f
         for (i, ln) in enumerate(eachline(f))
@@ -40,5 +40,5 @@ function read(file, start=36)
     return data
 end
 
-export read, readrs
+export readts, readrs
 end

@@ -8,7 +8,7 @@ The **StrongMotionFiles.jl** Package provides function to read strong motion cd 
 You can read acceleration, velocity and displacement data with the `read` function, which returns an array with the timeseries data of a specified `file`.
 
 ```julia
-data = read("file.smc")
+data = readts("file.smc")
 ```
 
 ### Read response spectrum
