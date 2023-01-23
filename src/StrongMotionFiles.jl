@@ -1,3 +1,4 @@
+module StrongMotionFiles
 using DataFrames
 
 function readrs(file, start=39)
@@ -40,3 +41,4 @@ function read(file, start=36)
 end
 
 export read, readrs
+end
